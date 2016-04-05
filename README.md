@@ -24,6 +24,8 @@ rm -rf sublime-config
 - 到 https://packagecontrol.io/installation 安装 packagecontrol 。这样所有的包会自动安装上。（ ctrl 跟 导引号 来呼叫出 command console ）
 note of settings
 ### 常用插件
+> 5. AllAutocomplete, Terminal,SyncedSideBar, AdvancedNewFile
+Sublime Text 默认的 Autocomplete 功能只考虑当前的文件，而 AllAutocomplete 插件会搜索所有打开的文件来寻找匹配的提示词
 Package control是必装插件，所有其他的插件和主题都可以通过它来安装。希望它能出现在正式版默认包中。
 9. Bracket Highlighter
 用于匹配括号，引号和html标签。对于很长的代码很有用。安装好之后，不需要设置插件会自动生效。
