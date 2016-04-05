@@ -23,6 +23,32 @@ rm -rf sublime-config
 
 - 到 https://packagecontrol.io/installation 安装 packagecontrol 。这样所有的包会自动安装上。（ ctrl 跟 导引号 来呼叫出 command console ）
 note of settings
+### 常用插件
+Package control是必装插件，所有其他的插件和主题都可以通过它来安装。希望它能出现在正式版默认包中。
+9. Bracket Highlighter
+用于匹配括号，引号和html标签。对于很长的代码很有用。安装好之后，不需要设置插件会自动生效。
+8. DocBlockr
+DocBlockr自动生成PHPDoc风格注释。它支持Javascript, PHP, ActionScript, CoffeeScript, Java, Objective C, C, C++。
+7. SideBar Enhancements 这个插件改进了侧边栏，增加了许多功能：将文件移入回收站，在浏览器中浏览，将文件复制到剪切板。
+6. Prefixr
+由于CSS3和HTML5的W3C规范都尚未统一，各大浏览器对标准的支持还是有差异的。所以在编写CSS3代码还需要针对不同的浏览器写一堆的CSS3代码前缀。Prefixr插件能将CSS3代码自动生成跨浏览器CSS代码。
+5. Emmet(Zen Coding)
+Zen Coding的Sublime Text 2插件也不再更新，现在整个项目搬到了Emmet了。仅仅需要一行代码就能快速生成html代码。
+4. Git
+Git是我最喜欢的版本控制系统，如果你每天要使用Git，那这个插件对你来说必不可少了。
+3. JSLint
+JSLint是一个Javascript代码质量检测工具。它可以告诉你代码的什么地方需要改进直接在Sublime里面检测。
+按Shift+Command + P(Mac)或Shift + Ctrl+P(Windows)调出命令面板，找到JSLint: Run JSLint，按下Enter，JSLint会输出状态栏。
+2. Sublime Linter
+这个插件帮你找到代码中的错误。它支持很多语言：PHP, Python, Java, CoffeScript, CSS, HTML, JavaScript, Perl, PHP, Python, Ruby, XML等。Javascript需要安装Node.js引擎，其他配置详见项目主页。强烈推荐安装。
+1. Sublime CodeIntel
+Sublime CodeIntel很多IDE提供的功能，例如代码自动补齐，快速跳转到变量定义，在状态栏显示函数快捷信息等。
+它支持的语言有：PHP, Python, RHTML, JavaScript, Smarty, Mason, Node.js, XBL, Tcl, HTML, HTML5, TemplateToolkit, XUL, Django, Perl, Ruby, Python3.
+0. Dayle Rees颜色主题
+尽管Sublime自带的颜色主题已经够棒了，但也有审美疲劳的一天，这时，你可以下载Dayle Rees主题，有多款主题可选。
+Dayle Rees主题
+本文链接： http://www.ladyloveit.com/sublime/developers-commonly-used-10-sublim
+
 sublime3
 ```
 import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())
