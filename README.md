@@ -24,6 +24,8 @@ rm -rf sublime-config
 - 到 https://packagecontrol.io/installation 安装 packagecontrol 。这样所有的包会自动安装上。（ ctrl 跟 导引号 来呼叫出 command console ）
 note of settings
 
+```
+
 // While you can edit this file, it’s best to put your changes in
 // "User/Preferences.sublime-settings", which overrides the settings in here.
 //
@@ -399,3 +401,5 @@ note of settings
 // 删除你想要忽略的插件，需要重启
 "ignored_packages": ["Vintage"]
 }
+
+```
